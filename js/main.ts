@@ -47,7 +47,8 @@ $('#b1').click(function() : void{
         }
 
     });
-
+    
+//TypeScript dynamic API call
 $("#search").on("click", function() : void{
   var searchTerm = $("#searchTerm").val();
   var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search="+ searchTerm +"&format=json&callback=?";
